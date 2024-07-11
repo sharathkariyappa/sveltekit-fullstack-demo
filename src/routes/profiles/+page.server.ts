@@ -1,6 +1,8 @@
 // import { error } from '@sveltejs/kit';
+// let POSTGRES_URL="postgres://default:jFtfp03uzOKw@ep-calm-bonus-a19stl48-pooler.ap-southeast-1.aws.neon.tech/verceldb?sslmode=require";
 import { createPool, sql } from '@vercel/postgres'
-import { POSTGRES_URL } from '$env/static/private'
+// import { POSTGRES_URL } from '$env/static/private'
+let POSTGRES_URL = process.env.POSTGESS_URL;
 
 export async function load() {
   const db = createPool({ connectionString: POSTGRES_URL })

@@ -13,7 +13,7 @@
 <Table names={data.names} />
 
 <div
-  class="mt-10 pt-10 w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
+  class="mt-10 mb-20 pt-10 w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
 >
   <form method="POST" action="?/create">
     <div class="flex flex-wrap -mx-3 mb-2">
